@@ -1,0 +1,39 @@
+body {
+  background-color: antiquewhite;
+  display: flex
+}
+
+section {
+    /*border: 2px solid black;*/
+    margin: auto;
+    padding: 70px;
+    position: relative;
+    top: 10em;
+    bottom: 10em;
+    box-shadow: 1px 5px 7px 3px rgb(100, 99, 99);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#input {
+    height: 30px;
+}
+
+button {
+    height: 35px;
+    width: 60px;
+}
+
+button:hover {
+    background-color: rgb(73, 67, 67);
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    cursor: pointer;
+}
+
