@@ -17,10 +17,9 @@ button.addEventListener('click', function() {
 })
 
 
-/ul.addEventListener('click', function(){
-    console.log('Azfar')
-    /*let item = document.getElementsByTagName(ul.value)
-    ul.removeChild(item)*/
+ul.addEventListener('click', function(){
+    let li = document.querySelector('li')
+    li.parentNode.removeChild(li)
 })
 
 
