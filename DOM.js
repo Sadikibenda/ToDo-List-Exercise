@@ -15,9 +15,19 @@ button.addEventListener('click', function() {
         ul.appendChild(li)
         input.value = '';   // added this code to accomodate the condition.
 
-         //use this code below to remove a line added when click
+       
+         //use this code below to Strickthrough, then remove after 3sec 
         li.addEventListener('click', function(){
-           li.remove()
+            li.style.textDecoration = "line-through"  
+           setTimeout((li)=>{
+            li.remove()
+           }, 3000, li)
+           
         })
+
     } 
 })
+
+     /* li.addEventListener('click', function() {          (used to remove a list line)
+        li.remove()
+      }*/
